@@ -84,7 +84,7 @@ public class Main {
         return false;
     }
 
-    
+
     private static void cadastrar(String dados) {
         String[] dadosSeparados = dados.split(",");
         Pessoa pessoa = new Pessoa(dadosSeparados[0], dadosSeparados[1],dadosSeparados[2]);
