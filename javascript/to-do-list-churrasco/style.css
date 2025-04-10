@@ -1,0 +1,71 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-color: #808080;
+}
+
+.container{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 75px;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    
+}
+
+header{
+    background-color: #FF0000;
+    height: 65px;
+}
+
+
+
+input{
+    border-radius: 1px;
+    cursor: pointer;
+    width: 10px;
+    height:auto 0;
+    
+}
+
+.div-checkbox{
+    
+    margin: 0 auto;
+    font-style: normal;
+    font-size: 15px;
+}
+
+button{
+    width: 327px;
+    cursor: pointer;
+    height: 32px;
+    border-radius: 25px;
+    border: 1px solid #FF0000; 
+    background-color: #FF0000;
+    font-size: 18px;
+    
+}
+
+
+footer{
+    background-color: #FF0000;
+    height: 65px;
+    font-size: 12px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
